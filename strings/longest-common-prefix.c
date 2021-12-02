@@ -67,12 +67,8 @@ int main (int argc, char *argv[])
 	return 0;
     }
 	
-
     strings = argv+1;
-
-
     printf("%s\n",strings[0]);
-
 	cmn_str = longestCommonPrefix(strings, (argc - 1));
 	printf("%s\n",cmn_str);
 
